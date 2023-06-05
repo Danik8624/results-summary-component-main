@@ -177,4 +177,8 @@ color: hsl(234, 85%, 45%);
     width: auto;
     padding-bottom: 30px;
     }
+    
+        .summary_h1 {
+    padding-top: 15px;
+    }
   }

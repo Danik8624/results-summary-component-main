@@ -1,0 +1,180 @@
+@font-face {
+    font-family: Hanuken;
+    src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: Hanuken;
+    font-weight: bold;
+}
+
+body {
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(221, 100%, 96%);
+  }
+
+.grey {
+    color: rgba(3, 3, 3, 0.514);
+}
+.results_h1 , .score_of , .score_info {
+    color: hsl(241, 100%, 89%);
+}
+
+
+
+.results_h1 , .summary h1{
+font-size: 20px;
+}
+
+.summary_h1 {
+ display: flex;
+ width: 80%;
+ padding-bottom: 15px;
+}
+
+.score {
+    font-size: 80px;
+    margin: 0;
+}
+
+.score_of {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.score_word {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+
+.hero {
+display: flex;
+width: 800px;
+height: 500px;
+background-color: white;
+border-radius: 20px;
+box-shadow: 20px 20px 30px rgb(200, 200, 200) ;
+}
+
+.summary , .results {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+}
+
+.reaction , .memory , .verbal , .visual {
+    display: flex;
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom: 15px;
+    justify-content:space-between;
+    /* padding-left: 20px; */
+}
+
+.icon {
+    padding-right: 10px;
+}
+
+
+.results {
+    border-radius: 20px;
+    background: linear-gradient(hsl(252, 100%, 67%) , hsl(241, 81%, 54%) );
+    color: white;
+}
+
+.score_shape {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(hsla(256, 72%, 46%, 1) , hsla(241, 72%, 46%, 0) );
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+}
+
+.reaction {
+background-color: hsl(0, 100%, 67%, 20%);
+
+}
+
+.memory {
+background-color: hsl(39, 100%, 56%, 20%);
+
+}
+
+.verbal {
+background-color: hsl(166, 100%, 37%, 20%);
+
+}
+
+.visual {
+background-color: hsl(234, 85%, 45%, 20%);
+
+}
+
+button {
+    margin-top: 50px;
+    height: 50px;
+    width: 80%;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+}
+
+button:hover {
+    background: linear-gradient(hsl(252, 100%, 67%) , hsl(241, 81%, 54%) );
+    cursor: pointer;
+}
+
+
+
+
+
+.reaction {
+    justify-content:space-between;
+}
+
+.reaction_icon , .reaction_info , .memory_info,  .memory_icon , .verbal_icon , .verbal_info , .visual_icon , .visual_info{
+    display: flex;
+    padding: 0 20px;
+}
+
+
+.reaction_icon {
+color: hsl(0, 100%, 67%);
+}
+
+.memory_icon {
+color: hsl(39, 100%, 56%);
+}
+
+.verbal_icon {
+color: hsl(166, 100%, 37%);
+}
+
+.visual_icon {
+color: hsl(234, 85%, 45%);
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .hero {
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding-bottom: 30px;
+    }
+  }
